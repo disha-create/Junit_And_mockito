@@ -1,0 +1,55 @@
+JUnit
+
+1) A software test is a piece of software which executes another piece of software.
+2) It validates if the code results in the expected state
+3) Unit Testing is categorized in Behavior and state testing
+	a) Behavior:- Check if the method is called with proper arguments				
+	b) State:- After the method is called what will be the state.
+4) A Unit can be a small piece of an application which can be -> method or a class.
+5) A software regression is a bug which makes your feature of application stop functioning.
+6) A software performance regression is a situation where code works perfectly but performance is slow or resource consumption is too high.
+
+Testing terminologies:
+1) Code -> (Application under test)
+	The code which is tested is called as as code under test
+2) Test Fixture:
+	Its a fixed state of a set of objects which are used as a baseline for running the tests
+3) Unit test:
+	Is a piece of code written by the developer that executes specific functionality and asserts 
+the behavior and state.
+4) Performance Testing:
+	It allows to check the performance of your application
+5) Integration Testing:
+6) Behavior Testing:
+
+
+Tesing Frameworks:	JUnit and TestNG. (Popular once)
+
+* JUnit is open source designed for writing and running tests in Java.
+* Originally written by Erich Gama and Kent Beck.
+* Unit testing framework, available in jar file
+* Can be executed from command prompt or IDE.
+
+
+Assertion methods:
+
+1) fail(String)
+2) assertTrue(boolean) : the function must return true
+3) assertFalse(boolean) : the function must return false
+4) assertNull(message, object) : we are expecting the object to be null.
+5) assertNotNull() : we are expecting the object should not be null.
+6) assertEquals(actual, expected)
+	if you campare two objects using assertEquals then the equality is based on the equals method
+	hence you must override the method.
+
+
+
+
+
+
+
+
+
+
+
+
